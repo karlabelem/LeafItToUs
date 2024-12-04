@@ -1,6 +1,6 @@
 # Leaf It To Us 🪴🍃
 
-**Collaborators::** James Decker, Vivian Cheung, Belem Barrientos-Guevara  
+**Collaborators:** James Decker, Vivian Cheung, Belem Barrientos-Guevara  
 
 Welcome to **Leaf It To Us**, an interactive visualization designed to help plant enthusiasts and curious learners explore the unique needs of different plants. Whether you're a seasoned plant parent or a beginner, this tool makes it easy to understand how plants are grouped based on their care requirements, such as light, water, and temperature.
 
