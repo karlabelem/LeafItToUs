@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf It To Us 🪴</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Leaf It To Us 🪴</h1>
+        <p><strong>Team Members</strong>: James Decker, Vivian Cheung, Belem Barrientos-Guevara</p>
+    </header>
+
+
+   <main id="main-content">
+  <section id="instructions">
+      <h1>How to Use This Visualization</h1>
+      <p>You can select different root attributes from the drop down menu and see how different plants are grouped together.</p>
+      <p>The upper nodes represent each unique plant, while their parent nodes represent how these plants are grouped togeher.</p>
+      <p>You can click on nodes to lock them in place. Click anywhere to close them before changing the root attribute.</p>
+
+  </section>
+
+  <div id="visualization">
+      <div id="viewofSelectedRootAttribute"></div>
+      <div id="treeWithLegend"></div>
+  </div>
+
+  <div id="empty-column"></div>
+
+</main>
+
+<section id="plant-care">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <h2>Understanding Plant Needs</h2>
+    <p>
+        Every plant is unique, requiring specific care to thrive. This guide covers key aspects of plant care to help you provide the best environment for your leafy friends.
+    </p>
+
+    <div class="care-sections">
+        <!-- Temperature Range -->
+        <div class="care-section" id="temperature">
+            <h3>Temperature Range</h3>
+            <p>Different plant groups thrive in distinct temperature ranges:</p>
+            <ul>
+                <li><strong>Tropical Plants:</strong> 
+                    <ul>
+                        <li>African Violet: 65–75°F</li>
+                        <li>Areca Palm: 65–75°F</li>
+                        <li>Bird of Paradise: 65–80°F</li>
+                    </ul>
+                </li>
+                <li><strong>Succulents:</strong>
+                    <ul>
+                        <li>Aloe: 55–80°F</li>
+                        <li>Snake Plant: 60–85°F</li>
+                        <li>Burro's Tail: 65–75°F</li>
+                    </ul>
+                </li>
+                <li><strong>Temperate Plants:</strong>
+                    <ul>
+                        <li>Boston Fern: 60–75°F</li>
+                        <li>Calathea: 65–75°F</li>
+                        <li>English Ivy: 50–75°F</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Keep your plant’s environment within these ranges to prevent stress and damage.</p>
+        </div>
+
+        <!-- Watering Needs -->
+        <div class="care-section" id="watering">
+            <h3>Watering Needs</h3>
+            <p>Watering requirements vary by plant type. Here's what they need:</p>
+            <ul>
+                <li><strong>Tropical Plants:</strong>
+                    <ul>
+                        <li>Peace Lily: Water frequently (every 4-7 days).</li>
+                        <li>Boston Fern: Water frequently (every 4-7 days).</li>
+                    </ul>
+                </li>
+                <li><strong>Succulents:</strong>
+                    <ul>
+                        <li>Aloe: Water rarely (every 3-4 weeks).</li>
+                        <li>Snake Plant: Water occasionally (every 2-3 weeks).</li>
+                        <li>Haworthia: Water rarely (every 3-4 weeks).</li>
+                    </ul>
+                </li>
+                <li><strong>Temperate Plants:</strong>
+                    <ul>
+                        <li>English Ivy: Water moderately (every 1-2 weeks).</li>
+                        <li>Calathea: Water moderately (every 1-2 weeks).</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Ensure soil moisture aligns with the plant’s needs to avoid over- or under-watering.</p>
+        </div>
+
+        <!-- Light Requirements -->
+        <div class="care-section" id="sunlight">
+            <h3>Light Requirements</h3>
+            <p>Lighting needs depend on the plant group:</p>
+            <ul>
+                <li><strong>Tropical Plants:</strong>
+                    <ul>
+                        <li>Bird of Paradise: Full sun (6-8 hours daily).</li>
+                        <li>Peace Lily: Medium light (moderate indirect sunlight).</li>
+                        <li>Calathea: Partial shade (indirect or filtered light).</li>
+                    </ul>
+                </li>
+                <li><strong>Succulents:</strong>
+                    <ul>
+                        <li>Aloe: Bright indirect light (prefers bright light but not direct sun).</li>
+                        <li>Burro's Tail: Bright indirect light.</li>
+                        <li>Snake Plant: Partial shade.</li>
+                    </ul>
+                </li>
+                <li><strong>Temperate Plants:</strong>
+                    <ul>
+                        <li>Boston Fern: Partial shade.</li>
+                        <li>English Ivy: Medium light.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Position your plants where they can get the right amount of light to thrive.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div>
+    <h2>Overview & Presentation</h2>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRh_Ob6lBGxrzQipZf30rp4cbdDub7bgxReBCNYBptufUXtVBeYirRUrjE1QhNWohBVxNbCzdtshgMK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>    </div>
+</section>
+
+
+    <footer>
+        <p>
+            This visualization makes use of a custom database that was built using Trefle API, The USDA's plant database, and other public organizations
+        </p>
+        <p>
+            <a href="https://gitlab.cs.washington.edu/cse442/24au/fp/leaf-it-to-us">Repository</a> |
+            <a href="https://courses.cs.washington.edu/courses/cse442/24au/">CSE 442 Data Visualization</a> |
+            <a href="https://www.washington.edu">University of Washington</a>
+        </p>
+    </footer>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
